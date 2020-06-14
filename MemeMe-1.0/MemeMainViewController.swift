@@ -175,8 +175,8 @@ class MemeMainViewController: UIViewController, UIImagePickerControllerDelegate,
     
     //MARK:- setTheMemeArguments()
     func setTheMemeArguments(){
-        topTextField.isEnabled = isTherememe()
-        botoomTextField.isEnabled = isTherememe()
+        topTextField.isEnabled = true
+        botoomTextField.isEnabled = true
         shareButton.isEnabled = isTherememe()
     }
     
